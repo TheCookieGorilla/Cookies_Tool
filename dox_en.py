@@ -572,7 +572,7 @@ def numero():
            os.system("termux-open https://www.revealname.com/")
            #numero()
     elif var == 2:
-       print('[~] Example: +420797837502
+       print('[~] Example: +420797837502')
        keys = "https://github.com/Euronymou5/LineX/raw/main/keys.json"
        data_keys = requests.get(keys).json()
        numero = input('[~] Enter the phone number: ')
