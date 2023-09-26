@@ -365,7 +365,7 @@ def emailfak():
 def phishing():
   os.system("clear")
   print(logo)
-  print('[1] Using CookieBro's Tool phishing')
+  print('[1] Using SNC Tool phishing')
   print('[2] Zphisher (Program)')
   print('[3] 0ni-Phish (Program) (Spanish only)')
   print('[00] Back to main menu')
