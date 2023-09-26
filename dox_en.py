@@ -155,7 +155,7 @@ def iplog():
       time.sleep(2)
       iplog()
   elif opc == 3:
-    print(f'\n{Colores.verde}[~] IP will be saved in: Doxxer-Toolkit/.pages/en_pages/IPlogger/ip.txt')
+    print(f'\n{Colores.verde}[~] IP will be saved in: SNC-Tool/.pages/en_pages/IPlogger/ip.txt')
     print(f'\n{Colores.amarillo}[~] You can view the IP ADDRESSES with the command: cat CookieBro-Tool/.pages/en_pages/IPlogger/ip.txt')
     print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
     print(' ')
@@ -192,7 +192,7 @@ def fakerr():
   ''')
   fakk = int(input('>> '))
   if fakk == 1:
-    print('\n[~] Generating a fake IPv4...')
+    print('\n[~] Generating a Fake IPv4...')
     time.sleep(2)
     ip = ".".join(map(str, (random.randint(0, 255)
                             for _ in range(4))))
@@ -365,7 +365,7 @@ def emailfak():
 def phishing():
   os.system("clear")
   print(logo)
-  print('[1] Using SNC Tool phishing')
+  print('[1] Use SNC-Tool phishing')
   print('[2] Zphisher (Program)')
   print('[3] 0ni-Phish (Program) (Spanish only)')
   print('[00] Back to main menu')
@@ -396,7 +396,7 @@ def phishing():
        ''')
        YP = int(input('>> '))
        if YP == 1:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Facebook/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/Facebook/usuarios.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Facebook/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -404,7 +404,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 2:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Google/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/Google/usuarios.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Google/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -412,7 +412,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 3:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Twitter/usuarios.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/Twitter/usuarios.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Twitter/usuarios.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -420,7 +420,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 4:
-        print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/Instagram/usuarios.txt')
+        print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/Instagram/usuarios.txt')
         print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/Instagram/usuarios.txt')
         print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
         print(' ')
@@ -447,7 +447,7 @@ def phishing():
        ''')
        YP = int(input('>> '))
        if YP == 1:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/facebook/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/en_pages/facebook/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/facebook/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -455,7 +455,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 2:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/google_new/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/en_pages/google_new/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/google_new/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -463,7 +463,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 3:
-         print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/twitter/usernames.txt')
+         print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/en_pages/twitter/usernames.txt')
          print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/twitter/usernames.txt')
          print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
          print(' ')
@@ -471,7 +471,7 @@ def phishing():
          p = subprocess.Popen(cmd, shell=True)
          a = p.communicate()[0]
        elif YP == 4:
-        print(f'\n{Colores.azul}[~] Users will be saved in: Doxxer-Toolkit/.pages/en_pages/instagram/usernames.txt')
+        print(f'\n{Colores.azul}[~] Users will be saved in: SNC-Tool/.pages/en_pages/instagram/usernames.txt')
         print(f'\n{Colores.verde}[~] You can see them with the command: cat Doxxer-Toolkit/.pages/en_pages/instagram/usernames.txt')
         print(f'\n{Colores.magenta}[~] To exit press CTRL + C')
         print(' ')
@@ -572,7 +572,7 @@ def numero():
            os.system("termux-open https://www.revealname.com/")
            #numero()
     elif var == 2:
-       print('[~] Example: +420797837502)
+       print('[~] Example: +420797837502
        keys = "https://github.com/Euronymou5/LineX/raw/main/keys.json"
        data_keys = requests.get(keys).json()
        numero = input('[~] Enter the phone number: ')
@@ -756,14 +756,14 @@ def osintpa():
 def qrcodigo():
   os.system("clear")
   print(logo)
-  print('\n[~] Enter a url to convert to qr code')
+  print('\n[~] Enter a URL to convert to QR Code')
   s = input('[~] Enter a text: ')
   n = input('[~] Input the image name: ')
   d=n+".png"
   url=pyqrcode.create(s)
   url.show()
   url.png(d, scale =40)
-  print(f'{Colores.azul}[~] Image saved in the CookieBro's Tool folder with the name: {n}.png')
+  print(f'{Colores.azul}[~] Image saved in the SNC-Tool folder with the name: {n}.png')
   ll = input(f'{Colores.red}[?]  Do you want to return to the main menu [Y/n]: ')
   if ll == "Y" or ll == "y":
     menu()
@@ -904,19 +904,19 @@ def menu():
     print(logo)
     print('''\n
     
-    [~] Welcome to CookieBro's Tool
+    [~] Welcome To SNC-Tool
                       
     [1] IPloggers      
     [2] Geolocate IP           
-    [3] Get info from a phone number
+    [3] Get Info From A Phone Number
     [4] Phishing       
     [5] SMS                        
     [6] Anonymous emails   
-    [7] User search 
-    [8] Generate fake information
+    [7] User Search 
+    [8] Generate Fake Information
     [9] OSINT Pages
     [10] Link shorteners
-    [11] Generate qr code
+    [11] Generate QR Code
     [12] OSINT Email (BETA)
     [99] Exit
     ''')
