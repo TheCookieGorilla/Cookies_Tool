@@ -10,7 +10,7 @@ from faker import Faker
 from time import sleep
 import webbrowser
 
-Version = "2.5"
+Version = "0.1"
 
 class Colores:
   red="\033[31;1m"
@@ -30,7 +30,7 @@ logo = Colores.red + '''
  | |  |____/   \___/\/  \____|  | |
  |__|                          |__|
                    
-                    By:  CookieBro
+                    By:  S&C
                     _______________
 
                      Version: v0.1
